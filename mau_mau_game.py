@@ -1,11 +1,9 @@
-import random
 import logging
-import logger.loader
+import random
 from typing import List
 
-from src import CardDeck, CardGame
-from src.card_player import CardPlayer
-
+import logger.loader
+from src import CardDeck, CardGame, CardPlayer
 
 logger = logging.getLogger(__name__)
 
