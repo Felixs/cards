@@ -17,7 +17,7 @@ class DiscardPile:
     def add_card(self, card: str):
         self.cards.append(card)
 
-    def remove_to_card(self) -> str:
+    def remove_top_card(self) -> str:
         if self.is_empty():
             raise OutOfCardsError("No cards in discard pile!")
         return self.cards.pop()
