@@ -12,7 +12,7 @@ class DiscardPile:
         return str(self)
 
     def __str__(self):
-        return f"DiscardPile in order top to bottom: {reversed(self.card_list)}, shuffeled: {self.times_shuffled} times."
+        return f"DiscardPile in order top to bottom: {reversed(self.card_list)}."
 
     def add_card(self, card: str):
         self.cards.append(card)
